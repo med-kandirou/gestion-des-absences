@@ -1,0 +1,51 @@
+#showStgInfo{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background: none;
+    transition: all .5s ease-in-out 0s;
+}
+#showStgInfo:hover {
+    cursor: pointer;
+    color: rgb(78,115,223);
+}
+#acceuilSection:hover{
+    cursor:pointer;
+}
+#impExp:hover{
+    cursor:pointer;
+}
+#DiscSection:hover{
+    cursor:pointer;
+}
+#stagiaireSection:hover{
+    cursor:pointer;
+}
+#absenceStagiaire{
+     margin-top: 10px;
+}
+#btnfindStagiaire,#btnattScolaire,#btnsearch{
+    background: rgb(78,115,223);
+    border: 2px solid rgb(78,115,223);
+    border-radius: 5px;
+    color: white;
+}
+#btnfindStagiaire:hover{
+   color: black;
+   background: none;
+}
+#btnattScolaire:hover{
+    color: black;
+    background: none;
+}
+#btnsearch:hover{
+    color: black;
+    background: none;
+}
+#Absence{
+    margin-top: 10px;
+}
+#absenceTitle{
+    text-align: center;
+}

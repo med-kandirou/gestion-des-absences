@@ -1,0 +1,33 @@
+#logoImg{
+    width: 50px;
+    height: 50px;
+}
+
+#innerNav{
+    width: 100%;
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0 18px 0 0;
+}
+
+#pageTitle{
+    /* border: 2px solid #f00; */
+    margin: 0 auto;
+
+}
+
+#sectionSec{
+    /* border: 2px solid #00f; */
+    height: 100%;
+}
+#searchStagiaire{
+    display: flex;
+    justify-content: space-around;
+}
+.displaySection{
+    display: none;
+}
+#instrTitle{
+    color: black;
+}

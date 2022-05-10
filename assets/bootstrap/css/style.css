@@ -1,0 +1,63 @@
+.card {
+            padding: 30px 40px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            border: none !important;
+            box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2)
+        }
+      
+        .blue-text {
+            color: #00BCD4
+        }
+         
+        .form-control-label {
+            margin-bottom: 0
+        }
+        
+        input,textarea,button {
+            padding: 8px 15px;
+            border-radius: 5px !important;
+            margin: 5px 0px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            font-size: 18px !important;
+            font-weight: 300
+        }
+        
+        input:focus,textarea:focus {
+            -moz-box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            border: 1px solid #00BCD4;
+            outline-width: 0;
+            font-weight: 400
+        }
+        
+        .btn-block {
+            text-transform: uppercase;
+            font-size: 15px !important;
+            font-weight: 400;
+            height: 43px;
+            cursor: pointer
+        }
+        
+            .btn-block:hover {
+                color: #fff !important
+            }
+        
+        button:focus {
+            -moz-box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            outline-width: 0
+        }
+        
+        .navForm {
+   
+             height: auto;
+             border-radius: 5px;
+             margin: 2% auto;
+             box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+             padding: 2%;
+             background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+         }

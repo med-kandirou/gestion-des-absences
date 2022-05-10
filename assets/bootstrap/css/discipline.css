@@ -1,0 +1,132 @@
+.cardd {
+    padding: 10px 20px;
+    /* margin-top: 60px; */
+    /* margin-bottom: 60px; */
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-control-label {
+    margin-bottom: 0;
+}
+
+input,textarea,button {
+   
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300;
+}
+
+input:focus,textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+    font-weight: 400;
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer;
+}
+
+    .btn-block:hover {
+        color: #fff !important;
+    }
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+.navForm {
+
+     height: auto;
+     border-radius: 5px;
+     margin: 2% auto;
+     box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+     padding: 2%;
+
+ }
+
+
+#cont{
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#recherchConatainer{
+    /* border: 2px solid #0ff; */
+    width: 100%;
+    align-items: center;
+}
+#btnFind{
+    background: rgb(78,115,223);
+    border: 2px solid rgb(78,115,223);
+    border-radius: 5px;
+    color: white;
+}
+#btnFind:hover{
+    color: black;
+    background: none;
+}
+#btnsubmit{
+    background: rgb(25, 105, 14);
+    border: 2px solid rgb(25, 105, 14);
+    border-radius: 5px;
+    color: white;
+}
+#btnsubmit:hover{
+    color: black;
+    background: none;
+}
+#goBack{
+    border: 2px solid rgb(78,115,223);
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out 0s;
+}
+#goBack:hover{
+    background-color: rgb(78,115,223);
+    color: antiquewhite;
+}
+
+.showClass{
+    opacity: 0;
+    animation: showed .5s ease-in-out .1s forwards;
+}
+
+@keyframes showed {
+    0%{
+        visibility: hidden;
+        opacity: 0;
+    }
+    25%{
+        visibility: visible;
+        opacity: .3;
+    }
+    50%{
+        visibility: visible;
+        opacity: .6;
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+    }
+}
